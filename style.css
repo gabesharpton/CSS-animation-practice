@@ -15,3 +15,19 @@ div{
     75%{background-color: palegreen; left: 0px; top: 200px;}
     100%{background-color: powderblue; left: 0px; top: 0px;}
 }
+p{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    animation-name: bubble;
+    animation-duration: 5s;
+  }
+  @keyframes bubble{
+    0% {left: 50% ;top: 50%;}
+    50% {width: 100%; left: 0%; top: 50%;}
+    100%{left: 50%; top: 30%; width: 30%}
+  
+  }
